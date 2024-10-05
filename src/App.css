@@ -1,0 +1,79 @@
+/* ================================ */
+/* Estilos comunes */
+/* ================================ */
+body {
+  margin: 10px 60px;
+}
+a, .hilo-boton {
+  text-decoration: none;
+  color: black;
+}
+h1, h4, ol {
+  margin: 0;
+}
+p {
+  margin: 0 5;
+}
+.barra-superior {
+  background-color: aqua;
+  padding: 0 40px;
+}
+.main {
+  background-color: beige;
+  padding: 10px 15px;
+}
+
+/* ================================ */
+/* Estilos para "index" */
+/* ================================ */
+.fila {
+  padding: 5px 0;
+}
+.fondo {
+  display: flex;
+  color: black;
+  font-size: 12px;
+}
+.fecha {
+  padding-right: 10px;
+}
+
+/* ================================ */
+/* Estilos para "hilos" */
+/* ================================ */
+textarea {
+  width: 80%;
+  height: 80px;
+}
+button {
+  display: block;
+  margin: 10px 0;
+}
+.comentarios {
+  margin: 40px 0;
+}
+.comentario {
+  margin: 20px 0;
+}
+.comentario-top {
+  display: flex;
+  color: black;
+  font-size: 12px;
+}
+.comentario-fecha {
+  margin-left: 5px;
+}
+
+.hilo-boton {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+
